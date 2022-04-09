@@ -10,6 +10,7 @@ cd PathToFile
 
 #### compress image mosaic
 
+##### Elevation
 ###### dtm_cog_lzw
 ```
 gdal_translate dtm.tif  dtm_cog_lzw.tif -of COG -co COMPRESS=LZW -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
@@ -61,6 +62,7 @@ gdal_translate dtm.tif  dtm_cog_lerc-deflate.tif -of COG -co COMPRESS=LERC_DEFLA
 ```
 
 
+##### RGB-encoded
 ###### dtm-rgb_cog_lzma
 ```
 gdal_translate dtm_rgb.tif  dtm-rgb_cog_lzma.tif -of COG -co COMPRESS=LZMA -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
@@ -82,3 +84,6 @@ gdal_translate dtm_rgb.tif  dtm-rgb_webp-100_886bit.tif -co TILED=YES -co COMPRE
 gdal_translate dtm_rgb.tif  dtm-rgb_webp-100_885bit.tif -co TILED=YES -co COMPRESS=WEBP -co WEBP_LOSSLESS=True -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co COPY_SRC_OVERVIEWS=YES -co DISCARD_LSB=0,0,3 -a_nodata none
 ```
 
+##### hillshade
+###### gdal multidirectional hillshade jpeg
+gdaldem hillshade dtm.tif md-hillshade_jpeg.tif -of GTiff -b 1 -z 1.0 -s 1.0 -alt 45.0 -multidirectional -co COMPRESS=JPEG -co JPEG_QUALITY=75

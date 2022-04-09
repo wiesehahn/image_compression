@@ -93,7 +93,21 @@ b <- floor((startingvalue +dtm - r*rfactor - g*gfactor)*(1/precision))
 
 rgb_dem <- c(r,g,b)
 
-writeRaster(rgb_dem, here("data/interim/tests", "dtm_rgb.tif"), datatype="INT1U", NAflag=NA)
+writeRaster(rgb_dem, here("data/interim", "dtm_rgb.tif"), datatype="INT1U", NAflag=NA)
 
 # to decode
 # elevation = -10000 + ((R * 256 * 256 + G * 256 + B) * 0.01)
+
+
+
+
+
+#whitebox::install_whitebox()
+library(whitebox)
+
+
+## 1. FeaturePreservingSmoothing
+wbt_feature_preserving_smoothing(
+  dem = dtm,
+  output = here("data/processed/dtm_smoothed.tif"),
+  filter = 9)

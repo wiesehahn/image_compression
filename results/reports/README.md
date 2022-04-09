@@ -131,6 +131,16 @@ It can be decoded with the formula `elevation = -10000 + ((R * 256 * 256 + G * 2
 | GeoTIFF    	| WEBP        	| (yes)    	| 3         	| 5       	| RGB encoded as WEBP with 5bits for B-band |
 
 
+#### Hillshade
+
+If data is only used for visualization it might be enough to use a hillshade, this can dramatically reduc file size.
+
+| format  	| compression 	| lossless 	| size (MB) 	| size (%) 	| comment            	|
+|---------	|-------------	|----------	|-----------	|----------	|--------------------	|
+| GeoTIFF 	| none        	| yes      	| 65        	| 100      	| original           	|
+| GeoTIFF 	| JPEG        	| no     	| 2         	| 3       	| hillshade JPEG 75%   	|
+
+
 
 ## Literature
 
