@@ -1,3 +1,4 @@
 
 *.tif
 *.RData
+.Rproj.user
