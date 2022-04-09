@@ -1,0 +1,2271 @@
+<VRTDataset rasterXSize="165000" rasterYSize="180000">
+  <GeoTransform>  5.8900000000000000e+05,  1.9999999999999962e-01,  0.0000000000000000e+00,  5.7570000000000000e+06,  0.0000000000000000e+00, -1.9999999999999962e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">159.95898339856</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">71.524610035866</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">70.36</MDI>
+    </Metadata>
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Red</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5721.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5724.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5727.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5721.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5724.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5727.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5721.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5724.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5727.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5742.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5721.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5724.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5727.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5742.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5721.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5724.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5727.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5742.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5745.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5748.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5721.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5724.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5727.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5742.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5745.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5748.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5721.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5724.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5727.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5742.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5745.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5748.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5751.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5724.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5727.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5742.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5745.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5748.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5751.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5754.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="0" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5727.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5742.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5745.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5748.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5751.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5754.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="0" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5742.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5745.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5748.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5751.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5730.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5733.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5736.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5739.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">139.95731167527</MDI>
+      <MDI key="STATISTICS_MINIMUM">2</MDI>
+      <MDI key="STATISTICS_STDDEV">72.90213317809</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">70.36</MDI>
+    </Metadata>
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Green</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5721.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5724.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5727.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5721.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5724.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5727.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5721.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5724.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5727.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5742.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5721.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5724.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5727.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5742.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5721.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5724.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5727.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5742.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5745.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5748.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5721.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5724.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5727.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5742.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5745.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5748.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5721.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5724.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5727.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5742.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5745.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5748.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5751.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5724.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5727.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5742.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5745.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5748.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5751.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5754.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="0" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5727.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5742.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5745.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5748.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5751.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5754.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="0" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5742.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5745.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5748.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5751.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5730.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5733.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5736.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5739.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">150.61353954356</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">64.486245403803</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">70.36</MDI>
+    </Metadata>
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Blue</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5721.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5724.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5727.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5890_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="0" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5721.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5724.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5727.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5920_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="15000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5721.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5724.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5727.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5950_5742.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="30000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5721.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5724.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5727.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\5980_5742.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="45000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5721.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5724.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5727.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5742.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5745.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6010_5748.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="60000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5721.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5724.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5727.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5742.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5745.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6040_5748.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="75000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5721.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="165000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5724.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5727.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5742.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5745.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5748.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6070_5751.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="90000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5724.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="150000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5727.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5742.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5745.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5748.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5751.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6100_5754.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="105000" yOff="0" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5727.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="135000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5742.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5745.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5748.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5751.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6130_5754.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="120000" yOff="0" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5742.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="60000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5745.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="45000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5748.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="30000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6160_5751.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="135000" yOff="15000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5730.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="120000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5733.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="105000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5736.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="90000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1" shared="0">DOP_2006_gta\6190_5739.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="15000" RasterYSize="15000" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="15000" ySize="15000" />
+      <DstRect xOff="150000" yOff="75000" xSize="15000" ySize="15000" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
