@@ -99,6 +99,7 @@ Another possibility to store the data is to encode the elevation in 3 channels. 
 This technique is often used for web mapping, where loaded tiles should be as small as possible to reduce loading times. 
 Mapbox, Maptiler etc. use it with a precision factor of 0.1 which means that elevation is stored to the decimeter (e.g. 15.3 m).
 
+##### Encoding
 Here we encoded the elevation with higher precision using R as follows:
 ```
 startingvalue <- 10000
@@ -114,10 +115,13 @@ rgb_dem <- c(r,g,b)
 
 writeRaster(rgb_dem, "dtm_rgb.tif"), datatype="INT1U", NAflag=NA)
 ```
-
+##### Decoding
 It can be decoded with the formula `elevation = -10000 + ((R * 256 * 256 + G * 256 + B) * 0.01)`.
 (e.g. in QGIS `-10000 + (("dtm_rgb@1" * 256 * 256 + "dtm_rgb@2" * 256 + "dtm_rgb@3") * 0.01)`)
 
+
+##### Bit-reduction
+To reduce the file size even more we can reduce the bitdepth of the B-channel. Orignial 8-bit data encodes the elevation in 1cm steps. If we remove the last bit data is stored in 128 steps, reducing the precision to 2cm steps, and if we go further removing the last 2 bits results in 4cm steps.
 
 
 | format  	| compression 	| lossless 	| size (MB) 	| size (%) 	| comment            	|
@@ -133,7 +137,7 @@ It can be decoded with the formula `elevation = -10000 + ((R * 256 * 256 + G * 2
 
 #### Hillshade
 
-If data is only used for visualization it might be enough to use a hillshade, this can dramatically reduc file size.
+If data is only used for visualization it might be enough to use a hillshade, this can dramatically reduce file size.
 
 | format  	| compression 	| lossless 	| size (MB) 	| size (%) 	| comment            	|
 |---------	|-------------	|----------	|-----------	|----------	|--------------------	|
