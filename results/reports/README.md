@@ -55,6 +55,14 @@ If data should be stored just to archive it and for some analyzing workflows it 
 | GeoTIFF-mosaic 	| JPEG (75%)  	| no       	| 3         	| 5        	| YCbCr-Colorspace 	|
 
 
+### ERDAS format
+
+Erdas Imagine HFA format consists of image files in .img format, overviews in .rrd format and additional .xml files. For size comparison a single ortho-image tile (12257x12257 pixel) was converted to Geotiff with internal overviews (COG). 
+
+| format                    	| compression 	| lossless 	| size (MB) 	| size (%) 	| comment                               	|
+|---------------------------	|-------------	|----------	|-----------	|----------	|---------------------------------------	|
+| HFA – Erdas Imagine .img + .rrd 	| none        	| yes      	| 576 + 192        	| 100      	| original                              	|
+| COG                       	| DEFLATE     	| yes      	| 432        	| 56       	| Predictor=YES                         	|
 
 ## Elevation
 
@@ -76,7 +84,7 @@ The image had following properties:
 
 | format  	| compression  	| lossless 	| size (MB) 	| size (%) 	| comment                                        	|
 |---------	|--------------	|----------	|-----------	|----------	|------------------------------------------------	|
-| GeoTIFF 	| none         	| yes      	| 65        	| 100      	| original                                       	|
+| GeoTIFF 	| none         	| yes      	| 63        	| 100      	| original                                       	|
 | COG     	| LERC         	| yes      	| 83        	| 135      	| MAX_Z_ERROR=0                                  	|
 | COG     	| LZW          	| yes      	| 61        	| 94       	| fast to write slow to read                     	|
 | COG     	| DEFLATE      	| yes      	| 46        	| 71       	| fast to read                                   	|
@@ -85,7 +93,11 @@ The image had following properties:
 | COG     	| LERC_ZSTD    	| yes      	| 44        	| 68       	|                                                	|
 | COG     	| LZW          	| yes      	| 43        	| 66       	| Predictor=YES (predictor 3 for floating point) 	|
 | COG     	| DEFLATE      	| yes      	| 35        	| 54       	| Predictor=YES (predictor 3 for floating point) 	|
-| COG     	| DEFLATE      	| yes      	| 34        	| 53       	| Predictor=STANDARD (predictor 2 for integer)   	|
+| COG     	| ZSTD      	| yes      	| 35        	| 54       	| Predictor=FLOATING_POINT, LEVEL=1               	|
+| COG     	| DEFLATE      	| yes      	| 34        	| 53       	| Predictor=STANDARD                               	|
+| COG     	| ZSTD      	| yes      	| 34        	| 53       	| Predictor=FLOATING_POINT                          |
+| COG     	| ZSTD      	| yes      	| 33        	| 52       	| Predictor=STANDARD, LEVEL=22                     	|
+| COG     	| ZSTD      	| yes      	| 31        	| 49       	| Predictor=STANDARD                             	|
 | COG     	| LZMA         	| yes      	| 27        	| 42       	| very slow to write                             	|
 | COG     	| LERC_ZSTD    	| no       	| 12        	| 18       	| MAX_Z_ERROR=0.01 (precision of 1 cm)           	|
 | COG     	| LERC_ZSTD    	| no       	| 8         	| 12       	| MAX_Z_ERROR=0.025 (precision of 2.5 cm)        	|
@@ -123,21 +135,26 @@ It can be decoded with the formula `elevation = -10000 + ((R * 256 * 256 + G * 2
 ##### Bit-reduction
 To reduce the file size even more we can reduce the bitdepth of the B-channel. Orignial 8-bit data encodes the elevation in 1cm steps. If we remove the last bit data is stored in 128 steps, reducing the precision to 2cm steps, and if we go further removing the last 2 bits results in 4cm steps.
 
+If data is visualized as Multidirectional Hillshade (small differences are expected to be visible earlier here than if height is visualized) introduced errors seem to be visible from approximately this scales (it is more clear in flat areas):
+- 7bits: greater than 1:250
+- 6bits: greater than 1:1.000
+- 5bits: greater than 1:2.000
+
 
 | format  	| compression 	| lossless 	| size (MB) 	| size (%) 	| comment            	|
 |---------	|-------------	|----------	|-----------	|----------	|--------------------	|
 | GeoTIFF 	| none        	| yes      	| 65        	| 100      	| original           	|
 | GeoTIFF 	| none        	| (no)     	| 31        	| 48       	| RGB encoded        	|
 | COG     	| LZMA        	| (yes)    	| 17        	| 26       	| RGB encoded as COG 	|
+| COG     	| ZSTD        	| (yes)    	| 14        	| 22       	| RGB encoded as COG, Predictor=STANDARD	|
 | COG     	| WEBP        	| (yes)    	| 8         	| 12       	| RGB encoded as COG WEBP |
 | GeoTIFF     	| WEBP        	| (yes)    	| 5         	| 8       	| RGB encoded as WEBP with 7bits for B-band |
 | GeoTIFF     	| WEBP        	| (yes)    	| 4         	| 6       	| RGB encoded as WEBP with 6bits for B-band |
 | GeoTIFF    	| WEBP        	| (yes)    	| 3         	| 5       	| RGB encoded as WEBP with 5bits for B-band |
 
-
 #### Hillshade
 
-If data is only used for visualization it might be enough to use a hillshade, this can dramatically reduce file size.
+If data is only used for visualization it might be an alternative to use a hillshade, this can also dramatically reduce file size.
 
 | format  	| compression 	| lossless 	| size (MB) 	| size (%) 	| comment            	|
 |---------	|-------------	|----------	|-----------	|----------	|--------------------	|

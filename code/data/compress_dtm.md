@@ -55,17 +55,35 @@ gdal_translate dtm.tif  dtm_cog_lerc-zstd_maxerror-001.tif -of COG -co COMPRESS=
 ```
 gdal_translate dtm.tif  dtm_cog_lerc-zstd_maxerror-0025.tif -of COG -co COMPRESS=LERC_ZSTD -co MAX_Z_ERROR=0.025 -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
 ```
-
 ###### dtm_cog_lerc-deflate
 ```
 gdal_translate dtm.tif  dtm_cog_lerc-deflate.tif -of COG -co COMPRESS=LERC_DEFLATE -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
 ```
-
+###### dtm_cog_zstd_predictor2
+```
+gdal_translate dtm.tif  dtm_cog_zstd_predictor2.tif -of COG -co COMPRESS=ZSTD -co PREDICTOR=STANDARD -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
+```
+###### dtm_cog_zstd_predictor3
+```
+gdal_translate dtm.tif  dtm_cog_zstd_predictor3.tif -of COG -co COMPRESS=ZSTD -co PREDICTOR=FLOATING_POINT -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
+```
+###### dtm_cog_zstd_lvl1_predictor3
+```
+gdal_translate dtm.tif  dtm_cog_zstd_lvl1_predictor3.tif -of COG -co COMPRESS=ZSTD -co LEVEL=1 -co PREDICTOR=FLOATING_POINT -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
+```
+###### dtm_cog_zstd_lvl22_predictor3
+```
+gdal_translate dtm.tif  dtm_cog_zstd_lvl22_predictor3.tif -of COG -co COMPRESS=ZSTD -co LEVEL=22 -co PREDICTOR=FLOATING_POINT -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
+```
 
 ##### RGB-encoded
 ###### dtm-rgb_cog_lzma
 ```
 gdal_translate dtm_rgb.tif  dtm-rgb_cog_lzma.tif -of COG -co COMPRESS=LZMA -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
+```
+###### dtm-rgb_cog_zstd_predictor2
+```
+gdal_translate dtm_rgb.tif  dtm-rgb_cog_zstd_predictor2.tif -of COG -co COMPRESS=ZSTD -co PREDICTOR=STANDARD -co NUM_THREADS=ALL_CPUS -co BIGTIFF=YES -a_srs EPSG:25832 -co OVERVIEWS=IGNORE_EXISTING
 ```
 ###### dtm-rgb_cog_webp-100
 ```
@@ -86,4 +104,6 @@ gdal_translate dtm_rgb.tif  dtm-rgb_webp-100_885bit.tif -co TILED=YES -co COMPRE
 
 ##### hillshade
 ###### gdal multidirectional hillshade jpeg
+```
 gdaldem hillshade dtm.tif md-hillshade_jpeg.tif -of GTiff -b 1 -z 1.0 -s 1.0 -alt 45.0 -multidirectional -co COMPRESS=JPEG -co JPEG_QUALITY=75
+```
