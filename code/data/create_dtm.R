@@ -10,7 +10,7 @@
 ## Copyright (c) Jens Wiesehahn, 2022
 ## Email: wiesehahn.jens@gmail.com
 ##
-## Date Created: 2022-04-09
+## Date Created: 2022-05-31
 ##
 ## Notes:
 ##
@@ -44,7 +44,6 @@ library(sf)
 ##___________________________________________________
 
 ## load functions into memory
-# source("code/functions/some_script.R")
 
 ##___________________________________________________
 
@@ -60,13 +59,11 @@ if(!file.exists(file)){
   load(here("data/interim/lidr-catalog.RData"))
 }
 
-# set projection
-projection(ctg) <- 25832
 
+#mapview::mapview(ctg@data)
+bbox <- st_bbox(ctg@data[33542,]) #33543
 
-# get single tile extent
-# To visualize tiles:   mapview::mapview(ctg@data)
-bbox <- st_bbox(ctg@data[33542,])
+#dtm <- rasterize_terrain(ctg, res=0.5, shape= st_as_sfc(bbox))
 
 
 # load lidar data
@@ -74,14 +71,9 @@ las = clip_roi(ctg, bbox)
 las <- filter_poi(las, Classification != 7 & # noise
                     Classification != 15) # other points (mainly cars)
 
-# create dtm
 dtm <- rasterize_terrain(las, res=0.25)
 
-# save to disk
-writeRaster(dtm, here("data/interim", "dtm.tif"), gdal="COMPRESS=NONE")
 
-
-# encode as RGB
 startingvalue <- 10000
 precision <- 0.01
 rfactor <- 256*256 * precision
@@ -93,8 +85,9 @@ b <- floor((startingvalue +dtm - r*rfactor - g*gfactor)*(1/precision))
 
 rgb_dem <- c(r,g,b)
 
-writeRaster(rgb_dem, here("data/interim", "dtm_rgb.tif"), datatype="INT1U", NAflag=NA)
+install.packages("gdalUtils")
+gdalUtils::gdal_setInstallation()
 
-# to decode
-# elevation = -10000 + ((R * 256 * 256 + G * 256 + B) * 0.01)
-
+writeRaster(rgb_dem, here("data/processed/dtm-rgb.tif"), 
+            datatype="INT1U", 
+            NAflag=NA)
