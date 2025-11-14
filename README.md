@@ -1,171 +1,162 @@
-# GeoTiff Image Compression
+# GeoTIFF Image Compression Benchmark
 
-## Orthophoto
+*A comprehensive test and comparison of compression formats and types for geospatial raster data.*
 
-### Original data
+For a rendered version with detailed results 
+[![read the post](https://img.shields.io/badge/Read%20the%20post-Image%20Compression-blue)](https://wiesehahn.github.io/posts/image_compression/)
 
-Original data were RGB-Orthoimages which were present as 93 uncompressed image tiles together with corresponding overviews. 
+## Overview
 
-The tiles had following properties:
-    - Bands:        3
-    - Width:	    15000
-    - Height:	    15000
-    - Data type:    Byte - Eight bit unsigned integer
+Geospatial raster data can quickly balloon to enormous sizes, creating challenges for storage and distribution. With dozens of compression algorithms available—each with different trade-offs between file size, speed, and data fidelity—choosing the right approach isn't straightforward.
 
-#### Preprocessing
+This benchmark tests various compression formats available for GeoTIFF images via GDAL on two common data types:
+- **RGB orthoimagery** (aerial photos with 4 spectral bands)
+- **Digital elevation models** (terrain height data)
 
-For further processing the tiles were mosaiced into one virtual raster (vrt) with the dimensions 165.000 x 180.000 pixel.
+We compare traditional methods with newer approaches (WEBP, LERC, RGB-encoded elevation) to help you select appropriate compression for your use case.
 
-GDAL command: `gdalbuildvrt mosaic.vrt tiles\*.tif`
+## Test Data
 
+![Orthoimage](img/ortho.JPG)![DTM](img/dtm.JPG)
 
-### Compression
+### Orthophoto Imagery
 
-The images were merged in mosaics (via the virtual raster file) and stored as single files with different compression types. An overview of the results can be seen below.
+**Source:** Five ortho-image tiles from Lower Saxony, Germany (LGLN)
+- **Coverage:** 2×2 km per tile
+- **Resolution:** 20 cm
+- **Bands:** 4 (Red, Green, Blue, Infrared)
+- **Format:** Uncompressed Cloud Optimized GeoTIFF
+- **Data type:** Byte (8-bit unsigned integer)
+- **Size:** 10,000×10,000 pixels, ~539 MB per tile
 
-#### With Overviews
+### Digital Elevation Models
 
-For a smooth visualization experience it is necessary to have overviews of the image at different zoom levels. Cloud optimized GeoTIFFs (COG) include them by default. 
+**Source:** Five terrain model tiles from Lower Saxony, Germany (LGLN)
+- **Coverage:** 1×1 km per tile
+- **Resolution:** 1 m
+- **Bands:** 1 (elevation)
+- **Format:** Cloud Optimized GeoTIFF (LZW compressed)
+- **Data type:** Float32 (32-bit floating point)
+- **Size:** 1,000×1,000 pixels
 
-| format                    	| compression 	| lossless 	| size (GB) 	| size (%) 	| comment                               	|
-|---------------------------	|-------------	|----------	|-----------	|----------	|---------------------------------------	|
-| GeoTIFF-tiles + overviews 	| none        	| yes      	| 72        	| 100      	| original                              	|
-| COG                       	| LZW         	| yes      	| 68        	| 94       	| fast to write slow to read            	|
-| COG                       	| DEFLATE     	| yes      	| 55        	| 76       	| fast to read                          	|
-| COG                       	| DEFLATE     	| yes      	| 45        	| 63       	| Predictor=YES                         	|
-| COG                       	| ZSTD        	| yes      	| 55        	| 76       	| higher compression speed than Deflate 	|
-| COG                       	| LZMA        	| yes      	| 45        	| 63       	| very slow to write                    	|
-| COG                       	| LERC        	| yes      	| 43        	| 60       	| MAX_Z_ERROR=0                         	|
-| COG                       	| LERC_ZSTD   	| yes      	| 43        	| 60       	|                                       	|
-| COG     	                    | WEBP (100%)   | yes      	| 34        	| 47       	| lossless WebP, very slow to write  	    |
-| COG                       	| JPEG (75%)  	| no       	| 4         	| 6        	| YCbCr-Colorspace                      	|
-| COG                       	| JPEG (75%)  	| no       	| 4         	| 6        	| YCbCr-Colorspace, NoData              	|
-| COG                       	| WEBP (75%)  	| no       	| 3         	| 4        	|                                        	|
+## Compression Methods
 
-#### Without Overviews
+### Lossless Compression
+Preserves all original data without any changes:
+- **LZW** (with/without predictor)
+- **DEFLATE** (zlib, levels 1/6/9)
+- **ZSTD** (levels 1/9/22)
+- **LZMA** (levels 1/9)
+- **LERC** (Limited Error Raster Compression)
+- **LERC_DEFLATE** & **LERC_ZSTD** (LERC + additional compression)
+- **WEBP** (quality 100)
 
-If data should be stored just to archive it and for some analyzing workflows it might not be necessary to have overviews. To compare the size without overviews some regular mosaics were generated.
+### Lossy Compression
+Reduces file size with minor visual changes:
+- **WEBP** (quality < 100)
+- **Bit reduction** for RGB-encoded elevation data
 
-| format         	| compression 	| lossless 	| size (GB) 	| size (%) 	| comment          	|
-|----------------	|-------------	|----------	|-----------	|----------	|------------------	|
-| GeoTIFF-tiles  	| none        	| yes      	| 60        	| 100      	| original         	|
-| GeoTIFF-mosaic 	| LZW         	| yes      	| 50        	| 83       	|                  	|
-| GeoTIFF-mosaic 	| JPEG (75%)  	| no       	| 8         	| 13       	|                  	|
-| GeoTIFF-mosaic 	| JPEG (75%)  	| no       	| 3         	| 5        	| YCbCr-Colorspace 	|
+### RGB Encoding for Elevation Data
+Encodes floating-point elevation values into 3 RGB channels (byte format):
 
-
-### ERDAS format
-
-Erdas Imagine HFA format consists of image files in .img format, overviews in .rrd format and additional .xml files. For size comparison a single ortho-image tile (12257x12257 pixel) was converted to Geotiff with internal overviews (COG). 
-
-| format                    	| compression 	| lossless 	| size (MB) 	| size (%) 	| comment                               	|
-|---------------------------	|-------------	|----------	|-----------	|----------	|---------------------------------------	|
-| HFA – Erdas Imagine .img + .rrd 	| none        	| yes      	| 576 + 192        	| 100      	| original                              	|
-| COG                       	| DEFLATE     	| yes      	| 432        	| 56       	| Predictor=YES                         	|
-
-## Elevation
-
-A completely different type of data is elevation data (e.g. digital terrain or canopy models). While it can also be stored as raster data its structure is completely different from photographic data such as above Ortho-imagery. Instead of three (or more) bands its data is usually located in a single band (just one value per location). But this single value can be much more differentiated (floating data instead of integer). For this reasons compression algorithms have a different performance on elevation data than they do for photographic data. 
-
-### Original data
-
-The image had following properties:
-    - Bands:        1
-    - Width:	    4000
-    - Height:	    4000
-    - Data type:    Float32 - Thirty two bit floating point
-
-
-### Compression
-
-
-#### One-band Elevation
-
-| format  	| compression  	| lossless 	| size (MB) 	| size (%) 	| comment                                        	|
-|---------	|--------------	|----------	|-----------	|----------	|------------------------------------------------	|
-| GeoTIFF 	| none         	| yes      	| 63        	| 100      	| original                                       	|
-| COG     	| LERC         	| yes      	| 83        	| 135      	| MAX_Z_ERROR=0                                  	|
-| COG     	| LZW          	| yes      	| 61        	| 94       	| fast to write slow to read                     	|
-| COG     	| DEFLATE      	| yes      	| 46        	| 71       	| fast to read                                   	|
-| COG     	| LERC_DEFLATE 	| yes      	| 46        	| 71       	|                                                	|
-| COG     	| ZSTD         	| yes      	| 44        	| 68       	| higher compression speed than Deflate          	|
-| COG     	| LERC_ZSTD    	| yes      	| 44        	| 68       	|                                                	|
-| COG     	| LZW          	| yes      	| 43        	| 66       	| Predictor=YES (predictor 3 for floating point) 	|
-| COG     	| DEFLATE      	| yes      	| 35        	| 54       	| Predictor=YES (predictor 3 for floating point) 	|
-| COG     	| ZSTD      	| yes      	| 35        	| 54       	| Predictor=FLOATING_POINT, LEVEL=1               	|
-| COG     	| DEFLATE      	| yes      	| 34        	| 53       	| Predictor=STANDARD                               	|
-| COG     	| ZSTD      	| yes      	| 34        	| 53       	| Predictor=FLOATING_POINT                          |
-| COG     	| ZSTD      	| yes      	| 33        	| 52       	| Predictor=STANDARD, LEVEL=22                     	|
-| COG     	| ZSTD      	| yes      	| 31        	| 49       	| Predictor=STANDARD                             	|
-| COG     	| LZMA         	| yes      	| 27        	| 42       	| very slow to write                             	|
-| COG     	| LERC_ZSTD    	| no       	| 12        	| 18       	| MAX_Z_ERROR=0.01 (precision of 1 cm)           	|
-| COG     	| LERC_ZSTD    	| no       	| 8         	| 12       	| MAX_Z_ERROR=0.025 (precision of 2.5 cm)        	|
-| COG     	| JPEG (75%)   	| no       	|           	|          	| only possible with 8-bit data                  	|
-| COG     	| JPEG (75%)   	| no       	|           	|          	| only possible with 8-bit data                  	|
-| COG     	| WEBP (75%)   	| no       	|           	|          	| only possible with 3 or 4 band data            	|
-
-#### RGB-encoded
-
-Another possibility to store the data is to encode the elevation in 3 channels. This has the advantage that the 3 bands can be of datatype byte (0-255) which reduces file size.
-This technique is often used for web mapping, where loaded tiles should be as small as possible to reduce loading times. 
-Mapbox, Maptiler etc. use it with a precision factor of 0.1 which means that elevation is stored to the decimeter (e.g. 15.3 m).
-
-##### Encoding
-Here we encoded the elevation with higher precision using R as follows:
+**Mapbox Encoding:**
 ```
-startingvalue <- 10000
-precision <- 0.01
-rfactor <- 256*256 * precision
-gfactor <- 256 * precision
-
-r <- floor((startingvalue +dtm)*(1/precision) / 256 / 256)
-g <- floor((startingvalue +dtm - r*rfactor)*(1/precision) / 256) 
-b <- floor((startingvalue +dtm - r*rfactor - g*gfactor)*(1/precision))
-
-rgb_dem <- c(r,g,b)
-
-writeRaster(rgb_dem, "dtm_rgb.tif"), datatype="INT1U", NAflag=NA)
+height = -10000 + ((R × 256² + G × 256 + B) × 0.1)
 ```
-##### Decoding
-It can be decoded with the formula `elevation = -10000 + ((R * 256 * 256 + G * 256 + B) * 0.01)`.
-(e.g. in QGIS `-10000 + (("dtm_rgb@1" * 256 * 256 + "dtm_rgb@2" * 256 + "dtm_rgb@3") * 0.01)`)
+- Precision: 0.1 m (10 cm)
+- Range: -10,000 to +167,4301 m
+
+**Terrarium Encoding:**
+```
+height = (R × 256 + G + B / 256) - 32,768
+```
+- Precision: ~0.004 m (4 mm)
+- Range: -32,768 to +32,767 m
+
+## Key Findings
+
+### Orthophoto Imagery
+
+**Best Lossless Compression:**
+- **WEBP (Quality 100):** 42% of original size
+- **ZSTD (Predictor, Level 22):** 56% of original size
+- **LERC-based methods:** 61-62% of original size
+
+**Best Lossy Compression:**
+- **WEBP (Quality 75):** 16% of original size with minimal visual impact
 
 
-##### Bit-reduction
-To reduce the file size even more we can reduce the bitdepth of the B-channel. Orignial 8-bit data encodes the elevation in 1cm steps. If we remove the last bit data is stored in 128 steps, reducing the precision to 2cm steps, and if we go further removing the last 2 bits results in 4cm steps.
+### Elevation Data (Single-band Float32)
 
-If data is visualized as Multidirectional Hillshade (small differences are expected to be visible earlier here than if height is visualized) introduced errors seem to be visible from approximately this scales (it is more clear in flat areas):
-- 7bits: greater than 1:250
-- 6bits: greater than 1:1.000
-- 5bits: greater than 1:2.000
+**Best Lossless Compression:**
+- **LZMA (Level 9):** 50% of original size
+- **ZSTD (Predictor, Level 22):** 63% of original size
+- **DEFLATE (Predictor, Level 9):** 64% of original size
 
+### RGB-Encoded Elevation Data
 
-| format  	| compression 	| lossless 	| size (MB) 	| size (%) 	| comment            	|
-|---------	|-------------	|----------	|-----------	|----------	|--------------------	|
-| GeoTIFF 	| none        	| yes      	| 65        	| 100      	| original           	|
-| GeoTIFF 	| none        	| (no)     	| 31        	| 48       	| RGB encoded        	|
-| COG     	| LZMA        	| (yes)    	| 17        	| 26       	| RGB encoded as COG 	|
-| COG     	| ZSTD        	| (yes)    	| 14        	| 22       	| RGB encoded as COG, Predictor=STANDARD	|
-| COG     	| WEBP        	| (yes)    	| 8         	| 12       	| RGB encoded as COG WEBP |
-| GeoTIFF     	| WEBP        	| (yes)    	| 5         	| 8       	| RGB encoded as WEBP with 7bits for B-band |
-| GeoTIFF     	| WEBP        	| (yes)    	| 4         	| 6       	| RGB encoded as WEBP with 6bits for B-band |
-| GeoTIFF    	| WEBP        	| (yes)    	| 3         	| 5       	| RGB encoded as WEBP with 5bits for B-band |
+**Best Overall:**
+- **WEBP (Quality 100):** ~6% of original Float32 size
+  - Mapbox encoding: 0.23 MB (vs 3.96 MB original)
+  - Terrarium encoding: 0.85 MB (vs 3.96 MB original)
 
-#### Hillshade
+## Recommendations
 
-If data is only used for visualization it might be an alternative to use a hillshade, this can also dramatically reduce file size.
+### For Orthoimagery
 
-| format  	| compression 	| lossless 	| size (MB) 	| size (%) 	| comment            	|
-|---------	|-------------	|----------	|-----------	|----------	|--------------------	|
-| GeoTIFF 	| none        	| yes      	| 65        	| 100      	| original           	|
-| GeoTIFF 	| JPEG        	| no     	| 2         	| 3       	| hillshade JPEG 75%   	|
+**Storage/Archival (lossless required):**
+- Use **WEBP Quality 100** for best compression
 
+**Vizualization (lossy acceptable):**
+- Use **WEBP Quality 75-85** for visually lossless results
+- Consider **WEBP Quality 100** with **OVERVIEW_QUALITY=75** for multi-resolution datasets
 
+### For Elevation Data
 
-## Literature
+**Maximum Compression (lossless):**
+- Convert to RGB encoding (Terrarium or Mapbox)
+- Apply **WEBP Quality 100** compression
+- Achieves 94% size reduction
 
-- http://blog.cleverelephant.ca/2015/02/geotiff-compression-for-dummies.html
-- https://wheregroup.com/blog/der-weg-zum-optimalen-geotiff/
-- https://kokoalberti.com/articles/geotiff-compression-optimization-guide/
-- https://gist.github.com/kgjenkins/877ff0bf7aef20f87895a6e93d61fb43
-- https://medium.com/@frederic.rodrigo/optimization-of-rgb-dem-tiles-for-dynamic-hill-shading-with-mapbox-gl-or-maplibre-gl-55bef8eb3d86
+**Standard Single-band Storage:**
+- Use **ZSTD Predictor Level 9** for good compression and performance
+- Alternative: **DEFLATE Predictor Level 6** for broader compatibility
+
+**Web Visualization:**
+- Use RGB-encoded tiles with **WEBP compression**
+
+### General Guidelines
+
+1. **Always use some compression** - even fast algorithms (LZW, ZSTD Level 1) provide significant benefits
+2. **Match compression to use case:**
+   - Scientific analysis: Lossless compression
+   - Visualization: Lossy compression acceptable
+3. **Test with your data** - results vary by data characteristics (complexity, patterns, noise)
+
+## Limitations
+
+- Lossy compression alters original data - unsuitable for analytical workflows requiring raw values
+- RGB encoding requires encoding/decoding steps - not transparent to all software
+- Compression performance varies by data characteristics
+- Results may differ for other geographic regions or data types
+
+## Technical Details
+
+### Cloud Optimized GeoTIFF (COG)
+All compressed files were created as COGs with:
+- **Tile size:** 512×512 pixels
+- **Overviews:** Multiple pyramid levels
+
+### Benchmark Environment
+- **Processor:** 32 threads (GDAL_NUM_THREADS=32)
+- **Cache:** 8 GB (GDAL_CACHEMAX=8000)
+- **Software:** GDAL with gdalraster R package
+
+## Additional Resources
+
+- [GeoTIFF Compression for Dummies](http://blog.cleverelephant.ca/2015/02/geotiff-compression-for-dummies)
+- [Guide to GeoTIFF compression and optimization with GDAL](https://kokoalberti.com/articles/geotiff-compression-optimization-guide)
+- [Optimization of RGB DEM tiles for dynamic hill shading](https://medium.com/@frederic.rodrigo/optimization-of-rgb-dem-tiles-for-dynamic-hill-shading-with-mapbox-gl-or-maplibre-gl-55bef8eb3d86)
+- [Best Practices for Cloud-Optimized GeoTIFFs (COGs)](https://github.com/geostandards-ch/cog-best-practices)
+- [TIFF compression options by Keith Jenkins](https://gist.github.com/kgjenkins/877ff0bf7aef20f87895a6e93d61fb43)
+- [Elevation compression and bulk distribution](https://github.com/linz/elevation/tree/master/docs/tiff-compression)

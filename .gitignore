@@ -2,3 +2,5 @@
 *.tif
 *.RData
 .Rproj.user
+data/
+code/old/
